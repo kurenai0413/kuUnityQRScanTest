@@ -104,6 +104,8 @@ public class kuWebcamTest : MonoBehaviour {
         return bytes;
     }
 
+    
+
     // Update is called once per frame
     void Update()
     {
