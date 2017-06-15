@@ -7,3 +7,7 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/TestScene1.unity
+    guid: 5cfdba6261771db47bdf53145f25d779
+  - enabled: 0
+    path: Assets/Scenes/ModelSimpleView.unity
+    guid: fd886411915662146901f5d54c30bc4a

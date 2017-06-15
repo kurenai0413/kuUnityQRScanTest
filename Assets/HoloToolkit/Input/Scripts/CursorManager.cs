@@ -56,7 +56,8 @@ namespace HoloToolkit.Unity
             }
 
             // Place the cursor at the calculated position.
-            gameObject.transform.position = GazeManager.Instance.Position + GazeManager.Instance.Normal * DistanceFromCollision;
+            gameObject.transform.position = GazeManager.Instance.Position
+                                          + GazeManager.Instance.Normal * DistanceFromCollision;
 
             // Orient the cursor to match the surface being gazed at.
             gameObject.transform.up = GazeManager.Instance.Normal;

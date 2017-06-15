@@ -21,7 +21,7 @@ namespace HoloToolkit.Unity
         /// </summary>
         [Tooltip("Select the layers raycast should target.")]
         public LayerMask RaycastLayerMask = Physics.DefaultRaycastLayers;
-
+        
         /// <summary>
         /// Checking enables SetFocusPointForFrame to set the stabilization plane.
         /// </summary>

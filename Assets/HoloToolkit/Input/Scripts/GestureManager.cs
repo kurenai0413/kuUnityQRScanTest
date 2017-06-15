@@ -4,6 +4,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.VR.WSA.Input;
+using UnityEngine.SceneManagement;
 
 namespace HoloToolkit.Unity
 {
@@ -453,6 +454,8 @@ namespace HoloToolkit.Unity
             {
                 FocusedObject.SendMessage("OnSelect", SendMessageOptions.DontRequireReceiver);
             }
+
+            SceneManager.LoadScene(0);
         }
 
         /// <summary>
