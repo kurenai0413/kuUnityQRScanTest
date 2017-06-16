@@ -25,9 +25,9 @@ namespace kuHoloLensUtility
 
         private const int CapFrameNeeded = 4;
 
-        bool isFocusLocCalculated = false;
+        bool        isFocusLocCalculated = false;
         Vector3     FocusPlaneNormal;
-        Vector3 FocusPlanePoint;
+        Vector3     FocusPlanePoint;
 
         public GameObject CalibCube;
 
@@ -447,6 +447,11 @@ namespace kuHoloLensUtility
 
                 PhotoCapture.CreateAsync(false, OnPhotoCaptureCreated);
             }
+        }
+
+        void OnDestroy()
+        {
+
         }
 
         void kuSetCube(Vector3 position, float cubeSize, Color color)
